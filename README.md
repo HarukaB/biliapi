@@ -2,6 +2,8 @@
 
 Go client for Bilibili Web REST APIs
 
+Requires Go 1.18 or newer.
+
 ```go
 client := biliapi.NewClient(biliapi.WithCredentials(biliapi.Credentials{
 	SESSDATA: "your SESSDATA",
